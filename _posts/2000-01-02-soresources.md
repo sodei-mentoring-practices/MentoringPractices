@@ -2,7 +2,7 @@
 title: "Department Resources"
 bg: blue
 color: white
-fa-icon: check-square-o
+fa-icon: telescope
 ---
 
 # Steward Observatory Resources
