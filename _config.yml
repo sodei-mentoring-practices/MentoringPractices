@@ -15,8 +15,8 @@ markdown: kramdown
 
 ### content configuration ###
 title:       "SO DEI Mentoring Practices Task Force"
-keywords:    "SinglePaged, jekyll, template, github, blog, single page"
-description: "A single-page template for Jekyll based blogs (like what you'd use on github pages!)"
+keywords:    "UA, mentorship, mentoring, sodei, diversity, inclusion"
+description: "This is the site for the SO DEI Mentoring Practices task force"
 source_link: "https://github.com/t413/SinglePaged"
 favicon:     "img/favicon.ico"
 touch_icon:  "img/apple-touch-icon.png"
