@@ -1,8 +1,8 @@
 ---
-title: "UofA Resources"
+title: "University Resources"
 bg: red
 color: black
-fa-icon: toggle-on
+fa-icon: university
 ---
 
 ## University-level resources
