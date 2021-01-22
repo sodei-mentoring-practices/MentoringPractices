@@ -1,63 +1,33 @@
 ---
 title: "External Resources"
-bg: '#63BD2F'
+bg: '#008000'
 color: white
 fa-icon: desktop
 ---
 
-Alright, you've got a clean copy and are ready to push some schmancy pages for the world to ogle at.
+# External Resources
 
-- Edit `_config.yml` to change your title, keywords, and description.
-- Create a new file in `_posts/` called `2014-01-01-intro.md`
-  Edit it, and add:
+## [A Mentee Guidebook for Students](https://genetics.cwru.edu/files/Mentee_Students_Guidebook.pdf)
 
-{% highlight text linenos=table %}
----
-title: "home"
-bg: white     #defined in _config.yml, can use html color like '#010101'
-color: black  #text color
-style: center
----
+This guidebook, written by the Graduate Student Senate of Case Western Reserve University, is written by graduate students for graduate students on “how [they] can become respected professionals and trusted colleagues”. It includes suggestions on developing relationships with faculty mentors and offers specific readings for mentees of underrepresented backgrounds.
 
-# Example headline!
-and so on..
-{% endhighlight %}
+## [Graduate Student Mentoring Guide: A Guide for Students](https://rackham.umich.edu/downloads/student-mentoring-handbook.pdf)
 
-- Create a second post called `2014-01-02-art.md` with an divider image this time:
+This helpful handbook, written by the University of Michigan’s Rackham Graduate School, is a popular read for graduate students. It discusses the benefits of mentorship relationships, suggestions on how to navigate relationships with faculty, and what to do if issues arise within these relationships.
 
-{% highlight text linenos=table %}
----
-title: "Art"
-bg: turquoise  #defined in _config.yml, can use html color like '#0fbfcf'
-color: white   #text color
-fa-icon: paint-brush
----
+## [Imagine PhD: Career Exploration and Planning](https://www.imaginephd.com/)
 
-#### A new section- oh the humanity!
-{% endhighlight %}
+Imagine PhD is a free online tool for PhD students and postdocs to explore and plan their future careers in science. It helps users assess their career-related skills, explore potential career paths, create goals, and map out steps for professional development. 
 
-**Note:** That part `fa-icon: paint-brush` will use a font-awesome icon of [paint-brush](http://fortawesome.github.io/Font-Awesome/icon/paint-brush/). You can use any icon from this [font-awesome icon directory](http://fortawesome.github.io/Font-Awesome/icons/).
+## [Individual Development Plans](https://myidp.sciencecareers.org/)
 
-- install Jekyll with `sudo gem install github-pages`
-- run `jekyll serve -w`
-  - visit [localhost:4000](http://localhost:4000) to see a live locally served preview.
-- Push changes and see them live!
+An individual development plan, or IDP, is a framework designed for people early in their science careers to define and pursue their career goals. The IDP concept has been recommended by the AAAS, the journal Science, and many universities. This linked site, myIDP, is a web-based tool for PhD students and Postdocs to create IDPs.
 
+## National Center for Faculty Development and Diversity Mentoring Map
+### LINK TBD
 
+This mentoring map is a tool for mentees to develop and assess their mentoring network to facilitate “mentoring-in-the-moment,” where mentoring for different circumstances is spread out among many connections rather than relying on a single mentor for all situations.
 
+## [Pathways to Science Mentorship Manual](https://www.pathwaystoscience.org/manual.aspx?sort=6#pagetop)
 
-## **Changing your colors**
-{: style="margin-top:100px;"}
-
-- In each post file you can define `bg: mycolor` and `color: myothercolor` to change the background and text colors for that section.
-- **mycolor** can be a quoted html color like `'#0fbfcf'` or a key to a special color defined in **_config.yml** under 'colors'.
-  - **Note:** Changes to _config.yml require a manual restart to your local server with `^C` and `jekyll serve -w`.
-
-Nifty, right!
-
-
-
-### Also see **README.md** [*on github!*](https://github.com/t413/SinglePaged#usage)
-{: style="margin-top:100px;"}
-
-
+This “manual” is a collection of tips, advice, and best practices for being a mentor or mentee at all academic levels, from undergraduate to faculty. It was developed by a team of experts from different universities and private companies. The manual includes sections devoted to the perspectives and experiences of every role in a mentorship relationship.
