@@ -1,5 +1,5 @@
 ---
-title: "| University Resources |"
+title: "  University Resources  "
 bg: red
 color: black
 fa-icon: university
