@@ -1,5 +1,5 @@
 ---
-title: "| Activities |"
+title: "|  Activities  "
 bg: turquoise
 color: white
 fa-icon: bookmark
