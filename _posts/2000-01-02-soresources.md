@@ -1,5 +1,5 @@
 ---
-title: "| Department Resources |"
+title: "      Department Resources      "
 bg: blue
 color: white
 fa-icon: folder
