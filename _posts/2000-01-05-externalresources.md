@@ -1,5 +1,5 @@
 ---
-title: "|  External Resources  |"
+title: "|     External Resources     |"
 bg: '#008000'
 color: white
 fa-icon: desktop
