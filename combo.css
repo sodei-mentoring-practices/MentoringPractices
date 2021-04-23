@@ -521,10 +521,10 @@ span.lineno {
 	#ext_resources a { color: #111111; }
 	#ext_resources .sectiondivider { color: #ad0000; } */
 
-	nav .p-meeting-info { border-color: #c869bf; }
-	#meeting-info { background-color: #c869bf !important; color: #f8f8f8; }
-	#meeting-info a { color: #f8f8f8; }
-	#meeting-info .sectiondivider { color: #c869bf; }
+	nav .p-meeting_info { border-color: #c869bf; }
+	#meeting_info { background-color: #c869bf !important; color: #f8f8f8; }
+	#meeting_info a { color: #f8f8f8; }
+	#meeting_info .sectiondivider { color: #c869bf; }
 
 	/* nav .p-activities { border-color: #ad0000; }
 	#activities { background-color: #ad0000 !important; color: #111111; }
