@@ -1,27 +1,28 @@
----
----
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>SO DEI Mentoring Practices</title>
-	<meta name="keywords" content="UA, mentorship, mentoring, sodei, diversity, inclusion">
-	<meta name="description" content="This is the site for the SO DEI Mentoring Practices task force">
+  <meta name="keywords" content="UA, mentorship, mentoring, sodei, diversity, inclusion">
+  <meta name="description" content="This is the site for the SO DEI Mentoring Practices task force">
   <link rel="stylesheet" href="combo.css">
   <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-  {% if site.favicon %}<link rel="shortcut icon" href="{{ site.favicon }}" type="image/x-icon">{% endif %}
-	{% if site.touch_icon %}<link rel="apple-touch-icon" href="{{ site.touch_icon }}">{% endif %}
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
 </head>
 <body>
   <div id="main">
 
     <nav><ul>
-      {% for node in site.posts reversed %}
-        {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
-        <li class="p-{{id}}"><a href="#{{id}}">{{node.title}}</a></li>
-      {% endfor %}
+      <li class="p-home"><a href="#home" class="active">Home</a></li>
+      <li class="p-dept_resources"><a href="#dept_resources">Department Resources</a></li>
+      <li class="p-univ_resources"><a href="#univ_resources"> University Resources</a></li>
+      <li class="p-ext_resources"><a href="#ext_resources">External Resources</a></li>
+      <li class="p-meeting_info"><a href="#meeting_info">Meeting Info</a></li>
+      <li class="p-activities"><a href="#activities">Activities</a></li>
+      <li class="p-members"><a href="#members">Members</a></li>
     </ul></nav>
 
 
@@ -31,7 +32,7 @@
         {% if page.icon %}
         <div class="subtlecircle sectiondivider imaged">
           <img src="{{page.icon}}" alt="section icon" />
-          <h5 class="icon-title">{{ page.title }}</h5>
+	  <h5 class="icon-title">SO DEI Mentoring Practices</h5>
         </div>
         {% elsif page.fa-icon %}
         <div class="subtlecircle sectiondivider faicon">
@@ -51,8 +52,11 @@
 
     <div id="footer" class="section text-white">
       <div class="container">
-        {% capture foottext %} {% include footer.md %} {% endcapture %}
-        {{ foottext | markdownify }}
+       Design by Tim O'Brien <a href="https://t413.com/">t413.com</a>
+       &mdash;
+       <a href="https://github.com/t413/SinglePaged">SinglePaged theme</a>
+       &mdash;
+       this site is <a href="https://github.com/t413/SinglePaged">open source</a>
       </div>
     </div>
   </div>
